@@ -1,0 +1,56 @@
+.box {
+    margin: auto;
+    width: 80%;
+}
+
+.collapse {
+    height: 50px;
+    width: 100%;
+    background-color: #FF6060;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 20px;
+   
+}
+
+.content {
+    width: calc(100% - 200px);
+    width: 100%;
+    
+    
+}
+
+@media screen and (max-width: 800px) {
+    .banner_container {
+        height: 100%;
+    }
+    .banner_about {
+        height: 220px;
+    }
+    
+    .box {
+        margin-top: 20px;
+        margin-bottom: 100px;
+        width: 100%;
+    }
+  
+
+    .collapse {
+        width: 100%;
+        max-height: 30px;
+        border-radius: 5px;
+        font-size: 13px;
+        padding: 0;
+        margin: 0;
+    }
+    .content {
+        min-width: calc(100% - 40px);
+        border-radius: 5px;
+        font-size: 12px;
+    }
+    .icon {
+        font-size: 13px;
+    }
+}

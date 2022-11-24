@@ -1,0 +1,28 @@
+.footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 210px;
+    
+}
+
+.logo_footer, .copyright_footer{
+    width: fit-content;
+    margin: 15px;
+}
+
+@media screen and (max-width: 800px) {
+    .footer {
+        padding: 30px;
+    }
+    .logo_footer {
+        width: 100px;
+       
+    }
+    .copyright_footer{
+        width: 200px;
+        margin: 10px;
+    }
+}

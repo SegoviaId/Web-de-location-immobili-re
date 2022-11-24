@@ -1,0 +1,18 @@
+.star {
+    display: flex;
+    margin-top: 25px;
+}
+.star svg {
+    width: 30px;
+    height: 30px;
+}
+
+@media screen and (max-width: 800px) {
+    .star {
+        margin: 0;
+    }
+    .star svg {
+        width: 15px;
+        height: 15px;
+    }
+}

@@ -1,0 +1,24 @@
+.rent_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #F6F6F6;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+@media screen and (max-width: 800px) {
+    .rent_content {
+        background-color: transparent;
+        margin-bottom: 60px;
+        margin-top: 12px;
+        padding: 0;
+    }
+    .banner_container_list {
+        height: 111px;
+    }
+}

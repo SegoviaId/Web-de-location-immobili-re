@@ -1,0 +1,10 @@
+body{
+  margin : 20px;
+
+}
+
+@media screen and (max-width: 800px) {
+  .banner_home {
+    height: 110px;
+  }
+}
