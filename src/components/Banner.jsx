@@ -1,15 +1,15 @@
 import React from 'react';
 import '../styles/Banner.css'
 import '../styles/about.css'
+import banner from '../assets/banner_home.png'
+import imgmob from '../assets/banner_home_mob.png'
 
-const Banner = ({text, src, srcm, alt,}) => {
+function Banner ()  {
     return (
         <div className='banner_container'>
-            <span className='banner_text'>{text}</span>
-            <img src={src} alt={alt} className='banner_img'/>
-            <img src={srcm}  alt={alt}  className='banner_img_mob'/>
-           
-            
+            <h1 className='banner_text'>Chez vous, partout et ailleurs</h1>
+            <img src={banner} alt={'Paysage forestière'} className='banner_img'/>
+            <img src={imgmob}  alt={'Paysage forestière'}   className='banner_img_mob'/>   
         </div>
     );
 };

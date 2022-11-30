@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import '../styles/error.css'
 
 
+
 const Error = () => {
     return (
         <>

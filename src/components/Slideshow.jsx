@@ -17,7 +17,7 @@ const Slideshow = () => {
             setCarouselIndex(0)
         }
         if (carouselIndex < 0) {
-            setCarouselIndex(rent.pictures.length - 1)
+            setCarouselIndex(rent.pictures.length - 1) 
         }
     }, [carouselIndex, rent.pictures.length])
     return (
